@@ -153,7 +153,7 @@
                             "value": "[parameters('apiSecret')]"
                         },
 						{
-							"name": "TREATMENT_AUTH":
+							"name": "TREATMENT_AUTH",
 							"value": "[parameters('TREATMENT_AUTH')]"
                         },
                         {
@@ -174,15 +174,15 @@
                             "value": "[parameters('custom_title')]"
                          },
 						 {
-						 "name": "ALARM_HIGH"
+						 "name": "ALARM_HIGH",
 						 "value": "[parameters('alarm_high')]"
 						 },
 						{
-						"name": "ALARM_LOW" 
+						"name": "ALARM_LOW" ,
 						"value": "[parameters('alarm_low')]"
 						},
 						{
-						"name":"ALARM_TIMEAGO_URGENT" 
+						"name":"ALARM_TIMEAGO_URGENT" ,
 						"value": "[parameters('alarm_timeago_urgent')]"
 						},
 						{
@@ -190,31 +190,31 @@
 						"value": "[parameters('alarm_timeago_warn')]"
 						},
 						{
-						"name": "ALARM_URGENT_HIGH" 
+						"name": "ALARM_URGENT_HIGH" ,
 						"value": "[parameters('alarm_urgent_high')]"
 						},
 						{
-						"name": "ALARM_URGENT_LOW"
+						"name": "ALARM_URGENT_LOW",
 						"value": "[parameters('alarm_urgent_low')]"
 						},
 						{
-                        "name": "BASAL_RENDER" 
+                        			"name": "BASAL_RENDER" ,
 						"value": "[parameters('basal_render')]"
 						},
 						{
-                        "name": "ENABLE" 
+                                         	"name": "ENABLE" ,
 						"value": "[parameters('enable')]"
 						},
 						{
-                        "name": "NIGHT_MODE" 
+                        			"name": "NIGHT_MODE" ,
 						"value": "[parameters('night_mode')]"
 						},
 						{
-						"name":	"SHOW_PLUGINS" 
+						"name":	"SHOW_PLUGINS" ,
 						"value": "[parameters('show_plugins')]"
 						},
 						{
-                        "name": "SHOW_RAWBG" 
+                        			"name": "SHOW_RAWBG" ,
 						"value": "[parameters('show_rawbg')]"
 						}
           
