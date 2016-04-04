@@ -100,7 +100,7 @@
       "type": "string",
 	  "defaultValue": "default",
       },
-	  "enable:": {
+	  "enable": {
       "type": "string",
 	  "defaultValue": "basal bwp cage careportal cob openaps pump rawbg sage treatmentnotify",
       },
