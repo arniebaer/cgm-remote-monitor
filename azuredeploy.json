@@ -182,11 +182,11 @@
 						"value": "[parameters('alarm_low')]"
 						},
 						{
-						"name":"ALARM_TIMEAGO_URGENT" ,
+						"name": "ALARM_TIMEAGO_URGENT" ,
 						"value": "[parameters('alarm_timeago_urgent')]"
 						},
 						{
-						"name":"ALARM_TIMEAGO_WARN" ,
+						"name": "ALARM_TIMEAGO_WARN" ,
 						"value": "[parameters('alarm_timeago_warn')]"
 						},
 						{
