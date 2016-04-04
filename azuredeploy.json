@@ -186,7 +186,7 @@
 						"value": "[parameters('alarm_timeago_urgent')]"
 						},
 						{
-						"name":"ALARM_TIMEAGO_WARN" 
+						"name":"ALARM_TIMEAGO_WARN" ,
 						"value": "[parameters('alarm_timeago_warn')]"
 						},
 						{
