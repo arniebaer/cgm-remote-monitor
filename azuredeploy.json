@@ -31,12 +31,8 @@
             "defaultValue": "0"
         },
         "repoUrl": {
-            "type": "string",
-			"allowedValues": [
-                "master",
-                "dev"
-            ],
-			"defaultValue": "dev"
+            "type": "string"
+	
         },
         "branch": {
             "type": "string"
